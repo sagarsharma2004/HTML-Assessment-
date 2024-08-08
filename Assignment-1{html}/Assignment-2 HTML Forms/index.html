@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <form action="/submit-form">
+        <h3>User's Details Form</h3>
+        <label for="user's name">Name : </label>
+        <input type="text" id="fname" name="fname" placeholder="Enter First Name" size="15" required>
+        <input type="text" id="mname" name="mname" placeholder="Enter Mid Name" size="15">
+        <input type="text" id="lname" name="lname" placeholder="Enter Last Name" size="15"><br><br>
+        <label for="user's email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="@gmail.com">
+        <br><br>
+        <label for="user's password">Password :</label>
+        <input type="password" name="password" id="password" placeholder="XXXXXXXXXX" size="15"><br>
+        <label for="Re-Enter password">Re-Enter Password :</label>
+        <input type="password" name="repassword" id="repassword" placeholder="XXXXXXXXXX" size="15">
+        <br><br>
+        <label for="tac">
+            <input id="tac" type="checkbox" name="terms-and-conditions" />
+            I agree to the Terms and Conditions
+          </label>
+          <p>
+            <a href="terms-and-conditions.html">Read our Terms and Conditions</a>
+          </p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
